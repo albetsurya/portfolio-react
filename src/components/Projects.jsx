@@ -15,21 +15,27 @@ export const Projects = () => {
       title: "Visualgram - Instagram clone",
       description: "Javascript, React Js, Tailwind CSS",
       imgUrl: projImg1,
+      weblink:
+        "https://medium.com/@albetsurya66/visualgram-as-an-instagram-clone-app-9516c88a994b",
     },
     {
       title: "Hasta Coffee",
       description: "Javascript, React Js, Vite, Bootstrap",
       imgUrl: projImg2,
+      weblink:
+        "https://medium.com/@albetsurya66/build-simple-coffeeshop-platform-with-reactjs-5a108cb46a90",
     },
     {
       title: "Simple Portfolio",
       description: "HTML, CSS, Javascript",
       imgUrl: projImg3,
+      weblink: "https://albetsurya.github.io/portfolio-tailwind-css/",
     },
     {
       title: "React Portfolio",
       description: "Javascript, React Js, Vite, Bootstrap",
       imgUrl: projImg4,
+      weblink: "https://albetsurya.github.io/portfolio-react/",
     },
   ];
 
@@ -78,12 +84,8 @@ export const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">
-                  {/* Project 2 */}
-                </Tab.Pane>
-                <Tab.Pane eventKey="third">
-                  {/* Project 3 */}
-                </Tab.Pane>
+                <Tab.Pane eventKey="second">{/* Project 2 */}</Tab.Pane>
+                <Tab.Pane eventKey="third">{/* Project 3 */}</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>

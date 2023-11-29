@@ -51,10 +51,10 @@ export const Contact = () => {
         <Row className="contact-bx">
           <Col md={6}>
             <img src={contactImg} alt="Contact Us" />
-            <Col md={6} className="contact-msg">
+            <Col className="contact-msg">
               <h2>Get In Touch</h2>
               <form onSubmit={handleSubmit}>
-                <Row>
+                <Row lg={12}>
                   <Col sm={6} className="px-1">
                     <input
                       type="text"
@@ -89,7 +89,7 @@ export const Contact = () => {
                       onChange={(e) => onFormUpdate("phone", e.target.value)}
                     />
                   </Col>
-                  <Col sm={6} className="px-1">
+                  <Col sm={12} md={12} className="px-1">
                     <textarea
                       row="6"
                       value={formDetails.message}
