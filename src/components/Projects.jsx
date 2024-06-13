@@ -5,6 +5,7 @@ import projImg1 from "../assets/img/Visualgram-instagram-clone.png";
 import projImg2 from "../assets/img/Hasta coffee.jpg";
 import projImg3 from "../assets/img/Personal Portfolio.png";
 import projImg4 from "../assets/img/React-Portfolio.png";
+import projImg5 from "../assets/img/project-img4.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { isVisible } from "@testing-library/user-event/dist/utils";
@@ -24,6 +25,13 @@ export const Projects = () => {
       imgUrl: projImg2,
       weblink:
         "https://medium.com/@albetsurya66/build-simple-coffeeshop-platform-with-reactjs-5a108cb46a90",
+    },
+    {
+      title: "BabyBoo E-Commerce",
+      description: "Javascript, React Js, Next.js, Taildwind CSS",
+      imgUrl: projImg5,
+      weblink:
+        "https://drive.google.com/drive/folders/1MX-AinV3bAlS_Y3YIOeamH0VEp9f4t-b?usp=drive_link",
     },
     {
       title: "Simple Portfolio",
