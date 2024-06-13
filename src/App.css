@@ -481,6 +481,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills {
   margin: 0 auto;
+  width: 93%;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
@@ -494,7 +495,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -879,6 +880,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover {
   color: #fff;
+  border-radius: 15px;
 }
 .contact form button::before {
   content: "";
@@ -890,9 +892,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   z-index: 0;
   transition: 0.3s ease-in-out;
+  border-radius: 15px;
 }
 .contact form button:hover::before {
   width: 100%;
+  border-radius: 15px;
 }
 
 /************ Footer Css ************/
