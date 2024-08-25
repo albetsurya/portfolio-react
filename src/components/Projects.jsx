@@ -6,6 +6,7 @@ import projImg2 from "../assets/img/Hasta coffee.jpg";
 import projImg3 from "../assets/img/Personal Portfolio.png";
 import projImg4 from "../assets/img/React-Portfolio.png";
 import projImg5 from "../assets/img/project-img4.png";
+import projImg6 from "../assets/img/project-img6.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { isVisible } from "@testing-library/user-event/dist/utils";
@@ -44,6 +45,12 @@ export const Projects = () => {
       description: "Javascript, React Js, Vite, Bootstrap",
       imgUrl: projImg4,
       weblink: "https://albetsurya.github.io/portfolio-react/",
+    },
+    {
+      title: "Simple Live Docs",
+      description: "Typescript, Next.js, tailwind CSS",
+      imgUrl: projImg6,
+      weblink: "https://simple-live-docs.vercel.app/",
     },
   ];
 
